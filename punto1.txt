@@ -1,0 +1,20 @@
+Diferencias entre Map,List y Set
+Duplicados: List permite realizar duplicados de su contenido diferencia entre Set que no lo permite, Map en cambio puede tener duplicados pero en su contenido ya que como funciona como una matriz asociativa la clave o índice sujeto a un su dato no se puede repetir.
+Orden: Otra diferencia entre List y Set es que List es una colección ordenada, con Set no se tiene garantía del orden aunque algunas implementaciones de Set ejemplo LinkedHashSet mantiene el orden.
+Elementos nulo (Null): List permite varios elementos nulos puesto que se pueden repetir datos, en cambio Set solo un elemento nulo, Map permite contenido nulo pero solo una clave null.
+
+Ejemplo Map
+1 Clientes y cuentas bancarias : [[“Carlos”,3434],[“Julian”,4545],[“Diego”,5454]]
+2 Datos con una clave en especifica: [[“xyz”,1000,[“ses”,343],[“Diego”,444]]
+3 Ciudades de Colombia y sus comidas típicas :[[“Cali”,”Cholao”],[“Bogota”,”Ajiaco”]…[Clave,Contenido]]
+
+Ejemplos List:
+
+1 Lista de estudiantes de una clase: [“carlos”,”julian”,”pedro”,….,”etc”]
+2 Marcas de coches que vende un concesionario: [“Mazda”,”Chevrolet”,”Renault”,…,”etc”]
+3 Lista de notas de un curso de ingeniería : [4,4.5,4.6,…..,etc]
+
+Ejemplo Set:
+1 Lista de los numero de un bingo donde no puede haber repetidos.
+2 Lista de las teclas de un teclado.
+3 Lista de números del  1 al 10 en escalas de 1.
